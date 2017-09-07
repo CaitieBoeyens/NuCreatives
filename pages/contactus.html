@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/contactus.css">
+        <title>Contact Us | Nu Creatives</title>
+        <link rel="icon" href="../assets/logo_icon.png">
+    </head>
+    <body>
+        <header>
+            <nav> 
+                <figure id="logo_con">
+                    <a href="../../index.html"><img id="logo" alt="logo" src="../assets/logo_white.svg"></a>
+                </figure><!--LOGO-->
+                <ul class="navigation">
+                    <li class="main_items"><a href="../pages/contactus.html">Contact us</a></li><!--CONTACT US--> 
+                    <li class="main_items"><a href="#">Portfolios</a>
+                        <ul>
+                            <li><a href="../pages/portfolios/shortfilms.html">Short Films</a>
+                                <ul>
+                                    <li><a href="../pages/showcase/shortfilm/artist1.html">Wes Anderson</a></li>
+                                    <li><a href="../pages/showcase/shortfilm/artist2.html">Danny Yourd</a></li>
+                                    <li><a href="../pages/showcase/shortfilm/artist3.html">Robbie Barclay</a></li>
+                                    <li><a href="../pages/showcase/shortfilm/artist4.html">Nick Park</a></li>
+                                    <li><a href="../pages/showcase/shortfilm/artist5.html">PES</a></li>
+                                </ul>
+                            </li><!--SHORT FILMS-->
+                            <li><a href="../pages/portfolios/artphotography.html">Art &amp; Photography</a>
+                                <ul>
+                                    <li><a href="../pages/showcase/artphotography/artist1.html">Elizaveta Porodina</a></li>
+                                    <li><a href="../pages/showcase/artphotography/artist2.html">Maltchique</a></li>
+                                    <li><a href="../pages/showcase/artphotography/artist3.html">Justyna Zdunczyk</a></li>
+                                    <li><a href="../pages/showcase/artphotography/artist4.html">Lena Pogrebnaya</a></li>
+                                    <li><a href="../pages/showcase/artphotography/artist5.html">Lena Vargas</a></li>
+                                    <li><a href="../pages/showcase/artphotography/artist6.html">Kota Yamaji</a></li>
+                                </ul>
+                            </li><!-- ART & PHOTOGRAPHY-->
+                            <li><a href="../pages/portfolios/music.html">Music &amp; Audio</a>
+                                <ul>
+                                    <li><a href="../pages/showcase/music/artist1.html">ANIMA!</a></li>
+                                    <li><a href="../pages/showcase/music/artist2.html">Steady Sun</a></li>
+                                    <li><a href="../pages/showcase/music/artist3.html">Deep Sea Arcade</a></li>
+                                    <li><a href="../pages/showcase/music/artist4.html">Gengahr</a></li>
+                                    <li><a href="../pages/showcase/music/artist5.html">Operator Music Band</a></li>
+                                </ul>
+                            </li><!--MUSIC & AUDIO-->
+                        </ul><!--DROPDOWNS--> 
+                    </li><!--PORTFOLIOS-->
+                    <li class="main_items" id="active"><a href="../index.html">Home</a></li><!--HOME-->
+                </ul><!--NAVIGATION-->
+            </nav>
+        </header>
+        <main>
+            <h1><strong>Contact us</strong></h1>
+            <section>
+                <div class="title">
+                    <div class="bottom_align"></div>
+                    <h2><em>How can we help?</em></h2>
+                    <div class="underline"></div>
+                </div>
+                <form>
+                    <input type="text" name="firstname" placeholder="First Name" autofocus required>
+                    <input type="text" name="surname" placeholder="Surname">
+                    <input type="email" name="email_address" placeholder="Email Address" required>
+                    <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" required>
+                    <input list="enquiry_type" placeholder="Your Enquiry" required>
+                    <datalist id="enquiry_type">
+                        <option value="General Enquiry" selected>
+                        <option value="Feature your work">
+                        <option value="Recommend an artist">
+                        <option value="Use an artist's work">
+                    </datalist>
+                    <textarea name="message" rows="10">Your Message</textarea>
+                    <input id="submit" type="submit" placeholder="Submit"> 
+                </form>
+            </section>
+            <aside>
+                <div class="title">
+                    <div class="bottom_align"></div>
+                    <h2><em>Where to find us</em></h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.56,11.93A10.81,10.81,0,0,0,16,1.4h0c-.31,0-.63,0-1,0h0c-.32,0-.64,0-1,0h0A10.81,10.81,0,0,0,4.44,11.93c-.31,6.9,8.28,14.73,10.2,16.39l.35.32h0l.35-.32C17.28,26.67,25.87,18.83,25.56,11.93Z" transform="translate(-3.43 -0.35)" stroke="#505050" stroke-width="2px" fill="none"/>
+                            <circle cx="11.5" cy="11" r="6" stroke="#505050" stroke-width="2px" fill="none" />
+                            
+
+                        </svg><!-- SVG CODE-->
+                    </div>
+                    <h4>
+                        Address<br>
+                        Address<br>
+                        Address<br>
+                        Address<br>
+                    </h4>
+                </div>
+                <div class="item">
+                    <div class="icon rotate">
+                        <img alt="phone" src="../assets/phone.svg">
+                    </div>
+                    <h4>000 000 0000</h4>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img alt="fax" src="../assets/fax.svg">
+                    </div>
+                    <h4>000 000 0000</h4>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img alt="time" src="../assets/clock.svg">
+                    </div>
+                    <h4>We respond between<br>
+                        <time>08:00</time> &amp; <time>16:00</time><br>
+                        on weekdays
+                    </h4>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <p>&copy; Nu Creatives</p>
+        </footer>
+    </body>
+</html>

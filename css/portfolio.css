@@ -1,0 +1,227 @@
+#art_header {
+    height: 450px;
+    width: 100%;
+    background-image: url(../assets/art.jpg);
+    background-color: #3b3b3b;
+    background-size: cover;
+}
+
+#film_header {
+    height: 450px;
+    width: 100%;
+    background-image: url(../assets/film.jpg);
+    background-color: #3b3b3b;
+    background-size: cover;
+}
+
+#music_header {
+    height: 450px;
+    width: 100%;
+    background-image: url(../assets/music.jpeg);
+    background-color: #3b3b3b;
+    background-size: cover;
+    bottom: 0;
+    background-position: center;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.main_block {
+    width: 300px;
+    height: 300px;
+    background: #647367;
+    overflow-y: hidden;
+}
+
+.main_block:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.overflow {
+    width: 300px;
+    height: 130%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+
+.overflow:hover {
+    transform: translateY(-30%);
+    transition: transform ease 0.5s;
+}
+
+figcaption {
+    height: 30%;
+    margin-top: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+}
+
+.title {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+.title h2 {
+    float: left;
+    padding-left: 0.5em;
+    color: white;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 0.5em;
+    font-weight: normal;
+}
+
+p {
+    float: left;
+    padding-left: 0.75em;
+    padding-top: 0.5em;
+    color: white;
+    display: inline-block;
+    margin: 0;
+    font-weight: normal;
+    max-width: 90%;
+    text-align: left;
+}
+
+.underline {
+    width: 70%;
+    height: 2px;
+    background: white;
+}
+
+.bottom_align {
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+    width: 0px;
+}
+
+figure {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+}
+
+/*ART*/
+
+#elizaveta {
+    background-image: url(../assets/showcase/art/the-leap3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#maltchique {
+    background-image: url(../assets/showcase/art/etudes2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#justyna {
+    background-image: url(../assets/showcase/art/hongkong3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#lenap {
+    background-image: url(../assets/showcase/art/youth1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#lenav {
+    background-image: url(../assets/showcase/art/ing1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#kota {
+    background-image: url(../assets/showcase/art/april1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+/*FILMS*/
+
+#wes {
+    background-image: url(../assets/showcase/film/wes.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#danny {
+    background-image: url(../assets/showcase/film/The-wizard-oz.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#robbie {
+    background-image: url(../assets/showcase/film/short-films-on-vimeo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#pes {
+    background-image: url(../assets/showcase/film/submarine_sandwich.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+#nick {
+    background-image: url(../assets/showcase/film/creature_comforts.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+/*MUSIC*/
+
+#anima {
+    background-image: url(../assets/showcase/music/blood.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#steady {
+    background-image: url(../assets/showcase/music/television.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#deep {
+    background-image: url(../assets/showcase/music/granite_city.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#gengahr {
+    background-image: url(../assets/showcase/music/heroine.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#operator {
+    background-image: url(../assets/showcase/music/koma.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

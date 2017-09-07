@@ -1,0 +1,358 @@
+/*NAV*/
+
+nav ul {
+   background: rgba(0, 0, 0, 0)
+}
+
+nav ul li a {
+    color: #505050;
+}
+
+nav li:hover a { 
+    background: rgba(80, 80, 80, 0.3);
+}
+
+nav li:hover li a:hover { 
+    background: rgba(80, 80, 80, 0.4); 
+    color: white;
+}
+
+nav ul li a:hover { 
+    background: rgba(80, 80, 80, 0.3);
+}
+
+/*MEDIA*/
+
+figure {
+    width: 60%;
+    margin: 0.5em 20% 1em 20%;
+    height: 400px;
+    text-align: center;
+}
+
+figure img {
+    height: 100%;
+}
+
+video{
+    object-fit: cover;
+    margin-bottom: 2em;
+}
+
+audio {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.music {
+    width: 30%;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2em;
+}
+
+.music figure {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 400px;
+}
+
+/*TEXT*/
+
+#description {
+    width:  40%;
+    margin-left: 20%;
+    display: inline-block;
+}
+
+.title {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+#vsmall {
+    width: 40%;
+}
+
+#small {
+    width: 60%;
+}
+
+.title h1, h2{
+    float: left;
+    padding-right: 0.5em;
+    color: #505050;
+    display: inline-block;
+    margin: 0;
+}
+
+.title h2 {
+    padding-top: 1.7%;
+}
+
+.underline {
+    width: 90%;
+    height: 2px;
+    background: #505050;
+}
+
+.bottom_align {
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+    width: 0px;
+}
+
+#description p {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 2em;
+    max-width: 85%;
+}
+
+#about{
+    width: 120%;
+    height: 150px;
+    float: left;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+/*ABOUT- MEDIA*/
+
+.artist_img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    background: #505050;
+    margin-right: 5%;
+    margin-bottom: 2em;
+    margin-left: 0;
+}
+
+#social {
+    width: 60%;
+    margin-left: 30%;
+    padding: 2em 0;
+    height: 50px;
+    display: inline-block;
+}
+
+.social_media {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #505050 2px solid;
+    float: left;
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.social_media img {
+    width: 60%;
+    margin: 20% 20%;
+}
+
+.social_media img:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.button {
+    width: 25%;
+    height: 50px;
+    margin-top: 0;
+    float: left;
+}
+
+.button h3 {
+    margin-top: 0.9em;
+    /*padding-right: 0.5em;*/
+}
+
+/*ASIDE*/
+
+aside {
+    width: 20%;
+    margin-right: 20%;
+    float: right;
+    display: inline-block;
+    text-align: right;
+}
+
+aside li {
+    list-style: none;
+    margin: 0;
+}
+
+aside li a {
+    text-decoration: none;
+    color: #505050;
+}
+
+aside li a:hover {
+    color: #727272
+}
+
+aside h2 {
+    float: right;
+    text-align: right;
+    padding: 0;
+}
+
+aside .underline {
+    width: 100%;
+}
+
+.pagination {
+    text-align: center;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 31%);
+    border-radius: 30px;
+    margin: 3em 1em;
+    padding: 0.3em 1em;
+    float: right;
+}
+
+.pagination h4 {
+    margin: 0;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: #505050;
+}
+
+.pagination h4:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+/*ARTIST CONTENT*/
+
+/*ART*/
+
+#elizaveta {
+    background-image: url(../assets/showcase/art/elizaveta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#maltchique {
+    background-image: url(../assets/showcase/art/maltchique.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#justyna {
+    background-image: url(../assets/showcase/art/justyna.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#lenap {
+   background-image: url(../assets/showcase/art/lena.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#lenav {
+    background-image: url(../assets/showcase/art/lenav.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#kota {
+    background-image: url(../assets/showcase/art/kota.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*FILMS*/
+
+#wes {
+    background-image: url(../assets/showcase/film/wes.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#danny {
+    background-image: url(../assets/showcase/film/danny.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#robbie {
+    background-image: url(../assets/showcase/film/robbie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#pes {
+    background-image: url(../assets/showcase/film/PES.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#nick {
+    background-image: url(../assets/showcase/film/nick.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+/*MUSIC*/
+
+#anima {
+    background-image: url(../assets/showcase/music/anima.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#steady {
+    background-image: url(../assets/showcase/music/steady-sun.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#deep {
+    background-image: url(../assets/showcase/music/deep_sea_arcarde.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#gengahr {
+    background-image: url(../assets/showcase/music/gengahr.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#operator {
+    background-image: url(../assets/showcase/music/operator_music_band.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
